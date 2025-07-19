@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APT Tax Accountants - SEO Strategy Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        .presentation-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		.cta-button {
+            background: linear-gradient(135deg, #db2777, #3b82f6);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(219, 39, 119, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(219, 39, 119, 0.5);
+        }
+
+        .slide {
+            background: white;
+            margin: 30px 0;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border-left: 4px solid #34495e;
+            page-break-after: always;
+        }
+
+        .slide-header {
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .slide-title {
+            font-size: 2.2em;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .slide-subtitle {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+
+        .title-slide {
+            text-align: center;
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title-slide h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .title-slide h2 {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            color: #bdc3c7;
+        }
+
+        .company-info {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .metric-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            text-align: center;
+        }
+
+        .metric-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .metric-label {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background: white;
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .comparison-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .comparison-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+
+        .highlight-title {
+            font-weight: 600;
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .strategy-timeline {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .timeline-item {
+            flex: 1;
+            min-width: 200px;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 4px solid #3498db;
+        }
+
+        .timeline-month {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .timeline-tasks {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        .bullet-points {
+            margin: 20px 0;
+        }
+
+        .bullet-points li {
+            margin: 10px 0;
+            padding-left: 10px;
+        }
+
+        .section-content {
+            margin: 25px 0;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .keyword-recommendation {
+            background: linear-gradient(135deg, #ecf0f1 0%, #f8f9fa 100%);
+            padding: 30px;
+            border-radius: 8px;
+            border: 2px solid #3498db;
+            margin: 30px 0;
+        }
+
+        .keyword-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .keyword-metrics {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .keyword-metric {
+            text-align: center;
+            padding: 15px;
+            background: white;
+            border-radius: 6px;
+        }
+
+        .non-negotiables {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .non-negotiables h3 {
+            color: #155724;
+            margin-bottom: 15px;
+        }
+
+        .non-negotiables ul {
+            list-style: none;
+        }
+
+        .non-negotiables li {
+            padding: 8px 0;
+            color: #155724;
+        }
+
+        .non-negotiables li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .print-note {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-top: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .slide {
+                margin: 0;
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+            .print-note {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .slide {
+                padding: 20px;
+                margin: 15px 0;
+            }
+            
+            .slide-title {
+                font-size: 1.8em;
+            }
+            
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+            
+            .strategy-timeline {
+                flex-direction: column;
+            }
+            
+            .keyword-metrics {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        
+        <!-- Title Slide -->
+        <div class="slide title-slide">
+            <h1>SEO Strategy Presentation</h1>
+            <h2>APT Tax Accountants</h2>
+            <div class="company-info">
+                <p><strong>Position:</strong> SEO Specialist</p>
+                <p><strong>Company:</strong> APT Group Holdings</p>
+                <p><strong>Website Analysed:</strong> www.apttaxaccountants.com</p>
+                <p><strong>Date:</strong> July 19, 2025</p>
+            </div>
+			<div style="text-align: center"><a href="https://sharmayogeeta.github.io/portfolio/" class="cta-button" target="_blank">Yogeeta Sharma</a></div>
+        </div>
+
+        <!-- Non-Negotiables Confirmation -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Non-Negotiable Requirements</h2>
+                <p class="slide-subtitle">Confirmation of Key Prerequisites</p>
+            </div>
+            
+            <div class="non-negotiables">
+                <h3>All Requirements Confirmed</h3>
+                <ul>
+                    <li><strong>5+ years hands-on SEO experience:</strong> Yes - Extensive technical, on-page, and content SEO expertise</li>
+                    <li><strong>Full-time, in-office commitment (Battersea):</strong> Yes - Ready for collaborative team environment</li>
+                    <li><strong>Salary £32,000 + performance bonus:</strong> Yes - Aligned with expectations and motivated by performance incentives</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Executive Summary -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Executive Summary</h2>
+                <p class="slide-subtitle">Current State & Strategic Opportunity</p>
+            </div>
+            
+            <div class="highlight">
+                <div class="highlight-title">Key Finding</div>
+                APT Tax Accountants has significant untapped SEO potential with critical technical issues limiting organic visibility. Strategic focus on "tax accountants London" presents optimal opportunity for market leadership.
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-number">10</div>
+                    <div class="metric-label">Current Ranking Keywords</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">864</div>
+                    <div class="metric-label">Competitor Keywords (TaxAgility)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">89%</div>
+                    <div class="metric-label">Pages Missing Meta Descriptions</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">2,700</div>
+                    <div class="metric-label">Target Keyword Monthly Searches</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Current Performance Analysis -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Current SEO Performance</h2>
+                <p class="slide-subtitle">Technical Audit & Competitive Analysis</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Critical Technical Issues</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Issue</th>
+                            <th>Affected URLs</th>
+                            <th>% of Site</th>
+                            <th>Priority</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Missing Meta Descriptions</td>
+                            <td>41 pages</td>
+                            <td>89%</td>
+                            <td>High</td>
+                        </tr>
+                        <tr>
+                            <td>Page Titles Over Pixel Limit</td>
+                            <td>42 pages</td>
+                            <td>91%</td>
+                            <td>High</td>
+                        </tr>
+                        <tr>
+                            <td>Missing H1 Tags</td>
+                            <td>20 pages</td>
+                            <td>43%</td>
+                            <td>Medium</td>
+                        </tr>
+                        <tr>
+                            <td>Images Over 100KB</td>
+                            <td>13 images</td>
+                            <td>46%</td>
+                            <td>Medium</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Competitive Analysis -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Competitive Landscape</h2>
+                <p class="slide-subtitle">Market Position & Opportunity Gap</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Competitor Comparison</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Ranking Keywords</th>
+                            <th>Domain Authority</th>
+                            <th>Key Strength</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: #fff3cd;">
+                            <td><strong>APT Tax Accountants</strong></td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>Local Presence</td>
+                        </tr>
+                        <tr>
+                            <td>TaxAgility</td>
+                            <td>864</td>
+                            <td>24</td>
+                            <td>Content Volume</td>
+                        </tr>
+                        <tr>
+                            <td>Howlader & Co</td>
+                            <td>914</td>
+                            <td>35</td>
+                            <td>Established Authority</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight">
+                    <div class="highlight-title">Critical Gap Identified</div>
+                    APT has zero shared keywords with competitors, indicating completely different SEO strategies and massive expansion opportunity.
+                </div>
+            </div>
+        </div>
+
+        <!-- Target Keyword Recommendation -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Target Keyword Selection</h2>
+                <p class="slide-subtitle">Strategic Keyword Recommendation</p>
+            </div>
+
+            <div class="keyword-recommendation">
+                <h3 class="keyword-title">"Tax Accountants London"</h3>
+                
+                <div class="keyword-metrics">
+                    <div class="keyword-metric">
+                        <div class="metric-number">2,700</div>
+                        <div class="metric-label">Monthly Searches</div>
+                    </div>
+                    <div class="keyword-metric">
+                        <div class="metric-number">31</div>
+                        <div class="metric-label">Competition Difficulty</div>
+                    </div>
+                    <div class="keyword-metric">
+                        <div class="metric-number">51+</div>
+                        <div class="metric-label">Current APT Position</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two-column">
+                <div>
+                    <h3>Why This Keyword?</h3>
+                    <ul class="bullet-points">
+                        <li>Perfect user intent alignment with APT's services</li>
+                        <li>High commercial intent - users ready to hire</li>
+                        <li>Manageable competition difficulty</li>
+                        <li>Geographic relevance to London location</li>
+                        <li>Foundation for content marketing strategy</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Business Impact Potential</h3>
+                    <ul class="bullet-points">
+                        <li>78 estimated monthly visitors at #1 position</li>
+                        <li>High-value tax accounting clients</li>
+                        <li>Seasonal traffic optimisation opportunities</li>
+                        <li>Authority building in tax specialisation</li>
+                        <li>Scalable to related London tax terms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEO Strategy Overview -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">SEO Strategy Framework</h2>
+                <p class="slide-subtitle">Phased Approach to #1 Ranking</p>
+            </div>
+
+            <div class="strategy-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-month">Months 1-2</div>
+                    <div class="timeline-tasks">
+                        <strong>Technical Foundation</strong><br>
+                        • Fix critical SEO issues<br>
+                        • Optimise meta descriptions<br>
+                        • Restructure page titles<br>
+                        • Implement H1 strategy
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-month">Months 2-4</div>
+                    <div class="timeline-tasks">
+                        <strong>Content Strategy</strong><br>
+                        • Create target landing page<br>
+                        • Build content clusters<br>
+                        • Launch content calendar<br>
+                        • Local SEO optimisation
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-month">Months 4-6</div>
+                    <div class="timeline-tasks">
+                        <strong>Authority Building</strong><br>
+                        • Link building campaign<br>
+                        • Industry partnerships<br>
+                        • Expert positioning<br>
+                        • PR and outreach
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-month">Months 6-12</div>
+                    <div class="timeline-tasks">
+                        <strong>Market Leadership</strong><br>
+                        • Performance optimisation<br>
+                        • Keyword expansion<br>
+                        • Industry recognition<br>
+                        • Thought leadership
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Implementation -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Technical SEO Priorities</h2>
+                <p class="slide-subtitle">Immediate Actions for Maximum Impact</p>
+            </div>
+
+            <div class="two-column">
+                <div>
+                    <h3>Week 1-2 Priorities</h3>
+                    <ul class="bullet-points">
+                        <li><strong>Meta Descriptions:</strong> Create for 41 pages (89% coverage gap)</li>
+                        <li><strong>Title Optimisation:</strong> Reduce 42 titles under pixel limit</li>
+                        <li><strong>H1 Implementation:</strong> Add missing H1 tags to 20 pages</li>
+                        <li><strong>Content Cleanup:</strong> Remove Lorem Ipsum placeholder</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Week 3-4 Priorities</h3>
+                    <ul class="bullet-points">
+                        <li><strong>Image Optimisation:</strong> Compress 13 large images</li>
+                        <li><strong>Internal Links:</strong> Fix 5 internal 4xx errors</li>
+                        <li><strong>Content Expansion:</strong> Improve 6 thin content pages</li>
+                        <li><strong>Core Web Vitals:</strong> Page speed improvements</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <div class="highlight-title">Expected Impact</div>
+                Technical fixes will improve search engine crawling, SERP appearance, and user experience - foundational for ranking improvements.
+            </div>
+        </div>
+
+        <!-- Content Strategy -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Content & On-Page Strategy</h2>
+                <p class="slide-subtitle">Building Topical Authority</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Primary Landing Page: /tax-accountants-london/</h3>
+                <div class="highlight">
+                    <div class="highlight-title">Content Structure (2,500+ words)</div>
+                    <strong>H1:</strong> Expert Tax Accountants in London | APT Tax Accountants<br>
+                    <strong>H2 Sections:</strong> Why Choose London's Leading Tax Specialists, Comprehensive Tax Services, Tax Planning Expertise, Client Success Stories, Contact Information
+                </div>
+
+                <h3>Supporting Content Cluster</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Page</th>
+                            <th>Target Keyword</th>
+                            <th>Monthly Volume</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>/london-tax-planning/</td>
+                            <td>tax planning London</td>
+                            <td>110</td>
+                            <td>Service-specific targeting</td>
+                        </tr>
+                        <tr>
+                            <td>/business-tax-advice-london/</td>
+                            <td>business tax advice London</td>
+                            <td>50</td>
+                            <td>B2B client focus</td>
+                        </tr>
+                        <tr>
+                            <td>/personal-tax-returns-london/</td>
+                            <td>personal tax returns London</td>
+                            <td>85</td>
+                            <td>Individual client targeting</td>
+                        </tr>
+                        <tr>
+                            <td>/vat-services-london/</td>
+                            <td>VAT services London</td>
+                            <td>40</td>
+                            <td>Specialised service focus</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Tools & Implementation -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Tools & Techniques</h2>
+                <p class="slide-subtitle">Professional SEO Implementation Stack</p>
+            </div>
+
+            <div class="two-column">
+                <div>
+                    <h3>Core SEO Tools</h3>
+                    <ul class="bullet-points">
+                        <li><strong>Google Search Console:</strong> Performance monitoring</li>
+                        <li><strong>SEMrush/Ahrefs/Moz:</strong> Keyword tracking & analysis</li>
+                        <li><strong>Screaming Frog:</strong> Technical audits</li>
+                        <li><strong>Google Analytics 4:</strong> Traffic & conversion tracking</li>
+                        <li><strong>PageSpeed Insights:</strong> Core Web Vitals</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Implementation Techniques</h3>
+                    <ul class="bullet-points">
+                        <li><strong>Schema Markup:</strong> LocalBusiness & Service schemas</li>
+                        <li><strong>Internal Linking:</strong> Hub and spoke architecture</li>
+                        <li><strong>Content Optimisation:</strong> TF-IDF analysis</li>
+                        <li><strong>Link Building:</strong> Digital PR & partnerships</li>
+                        <li><strong>Local SEO:</strong> Citation building & GMB optimisation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Collaboration -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Team Collaboration Strategy</h2>
+                <p class="slide-subtitle">Cross-Functional Success Framework</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Internal Stakeholder Integration</h3>
+                <div class="strategy-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-month">Marketing Team</div>
+                        <div class="timeline-tasks">
+                            • PPC keyword data sharing<br>
+                            • Content amplification<br>
+                            • Brand consistency<br>
+                            • Lead nurturing alignment
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-month">Qualified Accountants</div>
+                        <div class="timeline-tasks">
+                            • Content validation<br>
+                            • Expert insights<br>
+                            • Client success stories<br>
+                            • Regulatory updates
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-month">Technical Team</div>
+                        <div class="timeline-tasks">
+                            • Development priorities<br>
+                            • Performance monitoring<br>
+                            • Implementation support<br>
+                            • Testing protocols
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight">
+                    <div class="highlight-title">Collaboration Benefits</div>
+                    Cross-functional teamwork ensures technical accuracy, brand consistency, and efficient implementation while leveraging internal expertise for authentic content creation.
+                </div>
+            </div>
+        </div>
+
+        <!-- Success Metrics -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Success Metrics & ROI</h2>
+                <p class="slide-subtitle">Measurable Performance Indicators</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Primary Success Targets (12 Months)</h3>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-number">#1</div>
+                        <div class="metric-label">Target Keyword Ranking</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">300%</div>
+                        <div class="metric-label">Organic Traffic Increase</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">50%</div>
+                        <div class="metric-label">Lead Generation Increase</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">937%</div>
+                        <div class="metric-label">Projected ROI</div>
+                    </div>
+                </div>
+
+                <h3>ROI Calculation Framework</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Current</th>
+                            <th>Target</th>
+                            <th>Impact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monthly Organic Leads</td>
+                            <td>5</td>
+                            <td>15</td>
+                            <td>+10 leads/month</td>
+                        </tr>
+                        <tr>
+                            <td>Average Client Value</td>
+                            <td>£2,500</td>
+                            <td>£2,500</td>
+                            <td>£8,500 LTV</td>
+                        </tr>
+                        <tr>
+                            <td>Monthly Revenue Impact</td>
+                            <td>£12,500</td>
+                            <td>£37,500</td>
+                            <td>+£25,000</td>
+                        </tr>
+                        <tr>
+                            <td>Annual Revenue Impact</td>
+                            <td>£150,000</td>
+                            <td>£450,000</td>
+                            <td>+£300,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Timeline & Milestones -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Implementation Timeline</h2>
+                <p class="slide-subtitle">12-Month Roadmap to #1 Ranking</p>
+            </div>
+
+            <div class="section-content">
+                <h3>Key Milestones</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Timeline</th>
+                            <th>Primary Focus</th>
+                            <th>Expected Outcome</th>
+                            <th>Success Indicator</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Months 1-3</td>
+                            <td>Technical Foundation & Quick Wins</td>
+                            <td>50% reduction in technical issues</td>
+                            <td>Improved SERP appearance</td>
+                        </tr>
+                        <tr>
+                            <td>Months 4-6</td>
+                            <td>Content Strategy & Authority Building</td>
+                            <td>First page ranking for target keyword</td>
+                            <td>100% organic traffic increase</td>
+                        </tr>
+                        <tr>
+                            <td>Months 7-9</td>
+                            <td>Market Expansion & Optimisation</td>
+                            <td>Top 5 position for primary keyword</td>
+                            <td>200% organic traffic increase</td>
+                        </tr>
+                        <tr>
+                            <td>Months 10-12</td>
+                            <td>Market Leadership & Recognition</td>
+                            <td>#1 position achievement</td>
+                            <td>300% organic traffic increase</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight">
+                    <div class="highlight-title">Success Commitment</div>
+                    This timeline provides realistic, achievable milestones while maintaining focus on the ultimate goal of #1 ranking for "tax accountants London" within 12 months.
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Strategic Conclusion</h2>
+                <p class="slide-subtitle">Positioning APT for SEO Leadership</p>
+            </div>
+
+            <div class="section-content">
+                <div class="two-column">
+                    <div>
+                        <h3>Key Opportunities</h3>
+                        <ul class="bullet-points">
+                            <li><strong>Massive Gap:</strong> APT ranks for only 10 keywords vs competitors' 800+</li>
+                            <li><strong>Technical Quick Wins:</strong> 89% of pages missing meta descriptions</li>
+                            <li><strong>Market Position:</strong> Zero shared keywords with competitors</li>
+                            <li><strong>High-Value Target:</strong> 2,700 monthly searches for optimal keyword</li>
+                            <li><strong>Local Advantage:</strong> London location perfect for geographic targeting</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Strategic Advantages</h3>
+                        <ul class="bullet-points">
+                            <li><strong>Tax Specialisation:</strong> Focused expertise vs general accounting</li>
+                            <li><strong>Manageable Competition:</strong> Difficulty 31 achievable with strategy</li>
+                            <li><strong>Content Potential:</strong> Rich seasonal and regulatory content opportunities</li>
+                            <li><strong>Team Expertise:</strong> Qualified accountants for authentic content</li>
+                            <li><strong>Performance Focus:</strong> Clear ROI measurement and optimisation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="keyword-recommendation">
+                    <h3 class="keyword-title">Expected 12-Month Outcomes</h3>
+                    <div class="keyword-metrics">
+                        <div class="keyword-metric">
+                            <div class="metric-number">#1</div>
+                            <div class="metric-label">Ranking Position</div>
+                        </div>
+                        <div class="keyword-metric">
+                            <div class="metric-number">300%</div>
+                            <div class="metric-label">Traffic Growth</div>
+                        </div>
+                        <div class="keyword-metric">
+                            <div class="metric-number">£300K</div>
+                            <div class="metric-label">Revenue Impact</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight">
+                    <div class="highlight-title">Final Recommendation</div>
+                    APT Tax Accountants has exceptional SEO potential with clear technical improvements and strategic keyword targeting. The recommended "tax accountants London" strategy provides optimal balance of opportunity, competition, and business alignment for sustainable market leadership.
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact & Next Steps -->
+        <div class="slide">
+            <div class="slide-header">
+                <h2 class="slide-title">Next Steps</h2>
+                <p class="slide-subtitle">Ready to Execute Strategy</p>
+            </div>
+
+            <div class="section-content">
+                <div class="highlight">
+                    <div class="highlight-title">Immediate Action Plan</div>
+                    Upon appointment, I will begin with comprehensive technical audit and immediate implementation of critical fixes within the first week, focusing on meta descriptions and title optimisation for maximum quick-win impact.
+                </div>
+
+                <div class="two-column">
+                    <div>
+                        <h3>Week 1 Deliverables</h3>
+                        <ul class="bullet-points">
+                            <li>Complete technical SEO audit report</li>
+                            <li>Prioritised implementation roadmap</li>
+                            <li>Meta description optimisation (41 pages)</li>
+                            <li>Title tag restructuring plan</li>
+                            <li>Team collaboration framework setup</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Month 1 Targets</h3>
+                        <ul class="bullet-points">
+                            <li>50% reduction in critical technical issues</li>
+                            <li>Primary landing page created and optimised</li>
+                            <li>Content strategy calendar established</li>
+                            <li>Baseline metrics and tracking setup</li>
+                            <li>First performance report delivered</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="company-info" style="background: #f8f9fa; color: #2c3e50; text-align: center; margin-top: 40px;">
+                    <h3>Thank You</h3>
+                    <p>Ready to drive APT Tax Accountants to #1 ranking for "tax accountants London"</p>
+                    <p><strong>Contact:</strong> Yogeeta Sharma | sharmayogeeta07@gmail.com | 07519686177</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Add smooth scrolling for better presentation experience
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add slide numbers
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach((slide, index) => {
+                if (index > 0) { // Skip title slide
+                    const slideNumber = document.createElement('div');
+                    slideNumber.textContent = `${index} / ${slides.length - 1}`;
+                    slideNumber.style.cssText = `
+                        position: absolute;
+                        top: 10px;
+                        right: 20px;
+                        font-size: 0.8em;
+                        color: #7f8c8d;
+                        font-weight: 300;
+                    `;
+                    slide.style.position = 'relative';
+                    slide.appendChild(slideNumber);
+                }
+            });
+
+            // Add keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowDown' || e.key === 'PageDown') {
+                    window.scrollBy(0, window.innerHeight);
+                } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+                    window.scrollBy(0, -window.innerHeight);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
